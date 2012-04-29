@@ -3,6 +3,11 @@ package jogodavelha.rmi;
 import java.rmi.Naming;
 import java.util.Scanner;
 
+/**
+ * Cliente simples de linha de comando. Tem como principal objetivo a realização de testes.
+ * 
+ * @author Alexandre
+ */
 public class Cliente {
 
 	/**
