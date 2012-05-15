@@ -86,19 +86,6 @@ public class MainFrame extends JFrame implements ActionListener{
 			else{
 				if(jogo != null){
 					processarJogada(fonte);
-					/*int vencedor = jogo.getJogadorVencedor(idSessao);
-					if(vencedor != 0){ //partida acabou
-						if(vencedor == -1){
-							JOptionPane.showMessageDialog(this, "A partida empatou!");
-						}
-						else if(vencedor == idJogador){
-							JOptionPane.showMessageDialog(this, "Você venceu!");
-						}
-						else if(vencedor == idJogador){
-							JOptionPane.showMessageDialog(this, "Você perdeu!");
-						}
-						lblJogadoDaVez.setText("Fim de jogo");
-					}*/
 				}
 			}
 		}
